@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroInfo - Saúde Mental</title>
+    <link rel="stylesheet" href="css/hero3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="relatos.html">Relatos</a></li>
+                <li><a href="pesquisas.html">Pesquisas</a></li>
+                <li><a href="beneficios.html">Benefícios</a></li>
+                <li><a href="aprendizagem.html">Aprendizagem</a></li>
+                <li><a href="Hero3.html">Pagina inicial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero-content aparecer-rolagem">
+            <h1>NEUROINFO</h1>
+            <p>Aprender Idiomas: Um Exercício Poderoso para a Saúde Mental</p>
+            <a href="SaibaMaisSobreNos.html" class="btn">Saiba mais sobre nós</a>
+        </div>
+        <div class="hero-img">
+            <img src="./imagens/imagemCerebro.png" alt="Imagem de um cérebro estilizado">
+        </div>
+    </section>
+
+
+
+    <section class="saude-mental aparecer-rolagem">
+        <h3>Aprender Idiomas: Um Exercício Poderoso para a Saúde Mental</h3>
+        <h2>Saúde mental</h2>
+        <p>
+            Aprender novas línguas estimula o cérebro, melhora a memória, reduz o risco de doenças como Alzheimer e 
+            ajuda no bem-estar emocional, aumentando a autoestima e reduzindo o estresse.
+        </p>
+    </section>
+
+
+
+   
+    <section class="relatos aparecer-rolagem">
+        <h2>Alguns relatos</h2>
+        <div class="cards">
+            <div class="card aparecer-rolagem">
+                <p>
+                    Mais de 100 idosos estão fazendo aulas de idiomas nos centros de convivência em Santos, no litoral de São Paulo.
+                    A procura pela atividade é grande, já que as aulas de línguas estrangeiras têm sido uma boa oportunidade para manter
+                    o cérebro ativo e evitar doenças como o Mal de Alzheimer.
+                </p>
+                <span class="tag">Idosos</span>
+            </div>
+            <div class="card aparecer-rolagem">
+                <p>
+                    Juliana Teixeira Dias, 30, costureira dos “Vizinhos Criativos” de Belo Horizonte e mãe, relata que começou a ensinar seu
+                    filho inglês, e notou avanços visíveis. Para Dona J., aprender inglês integrou melhor a mãe e o filho nas atividades
+                    e aumentou a confiança. O processo teve início quando o menino tinha 4 meses de idade.
+                </p>
+                <span class="tag">Criança</span>
+            </div>
+        </div>
+    </section>
+     <section id="pesquisas" class="pesquisas">
+        <h2>Pesquisas</h2>
+        <div class="pesquisas-grid">
+            <div class="pesquisa-card">
+                <h3>Aprendizado Precoce</h3>
+                <p>Estudos mostram que aprender línguas desde cedo ajuda no desenvolvimento cognitivo e na resolução de problemas.</p>
+            </div>
+            <div class="pesquisa-card">
+                <h3>Benefícios</h3>
+                <p>Pesquisas revelam que bilíngues têm melhor memória de curto e longo prazo comparados a monolíngues.</p>
+            </div>
+            <div class="pesquisa-card">
+                <h3>Cérebro</h3>
+                <p>Assim como exercícios físicos, aprender idiomas mantém o cérebro ativo e saudável ao longo da vida.</p>
+            </div>
+            <div class="pesquisa-card">
+                <h3>Doenças</h3>
+                <p>Estudos sugerem que aprender idiomas fortalece a plasticidade cerebral e retarda doenças degenerativas.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<footer class="footer">
+    <div class="footer-top">
+        <h2>NEUROINFO</h2>
+        <p>Aprender Idiomas: Um Exercício Poderoso para a Saúde Mental</p>
+        <hr>
+    </div>
+
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>CATEGORIAS</h3>
+            <p>Doenças</p>
+            <p>Relatos</p>
+            <p>Cérebro</p>
+            <p>Aprendizagem</p>
+            <p>Benefícios</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>SUPORTE</h3>
+            <p>Perguntas Frequentes (FAQ)</p>
+            <p>Central de Ajuda</p>
+            <p>Relatar um Problema</p>
+            <p>Acessibilidade</p>
+
+
+        </div>
+
+        <div class="footer-section">
+            <h3>SOBRE NÓS</h3>
+            <p>Nosso time</p>
+            <p>Termos de Uso</p>
+            <p>Política de Privacidade</p>
+            <p>Inspirações</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>FALE CONOSCO</h3>
+            <p>‪+55 (54) 9 8447-2182‬</p>
+            <p>emaildogrupo7@gmail.com</p>
+            <img src="./imagens/ChatGPT Image 21 de ago. de 2025, 08_26_40.png" alt="Instituto Federal" width="90">
+        </div>
+    </div>
+
+    
+</footer>
+</body>
+</html>
+
+</footer>
+
+</html>
+    <script>
+        const elementos = document.querySelectorAll('.aparecer-rolagem');
+
+        const observador = new IntersectionObserver((entradas) => {
+            entradas.forEach(entrada => {
+                if (entrada.isIntersecting) {
+                    entrada.target.classList.add('visivel');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        elementos.forEach(el => observador.observe(el));
+    </script>
+</body>
+</html>
